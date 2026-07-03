@@ -1,0 +1,9 @@
+# Ignore backend environment and build artifacts
+backend/.env
+backend/node_modules/
+backend/dist/
+
+# Optional local files
+.idea/
+.vscode/
+.DS_Store
