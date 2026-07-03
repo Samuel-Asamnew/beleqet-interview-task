@@ -13,7 +13,7 @@ async function bootstrap() {
 
   const configService = app.get(ConfigService);
   const port = configService.get<number>('PORT', 4000);
-  const nodeEnv = configService.get<string>('NODE_ENV', 'development');
+  const nodeEnv = 'development';
 
   // ── Security ──────────────────────────────────────────────────────────────
   app.use(helmet());
