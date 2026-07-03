@@ -6,7 +6,8 @@
 
 ```bash
 # 1. Start Postgres + Redis
-docker-compose up -d   # run from the project root (one level up)
+cd backend
+docker compose up -d
 
 # 2. Set up environment
 cp .env.example .env
